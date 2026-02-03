@@ -1,4 +1,4 @@
-/* X (Twitter) Clone Styles */
+
 
 :root {
     --bg-primary: #000000;
@@ -10,6 +10,8 @@
     --accent-blue: #1d9bf0;
     --accent-hover: #1a8cd8;
     --verified-blue: #1d9bf0;
+    grid-template-columns: 275px 1fr 350px;
+
 }
 
 * {
@@ -157,6 +159,13 @@ body {
 .user-profile:hover {
     background-color: var(--bg-hover);
 }
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 .avatar {
     width: 40px;
@@ -427,10 +436,17 @@ body {
 }
 
 .post-image {
-    margin-bottom: 12px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     border-radius: 16px;
     overflow: hidden;
     border: 1px solid var(--border-color);
+}
+.post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 
 .image-placeholder {

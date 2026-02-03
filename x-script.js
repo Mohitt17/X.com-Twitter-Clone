@@ -146,13 +146,13 @@ document.addEventListener('DOMContentLoaded', function() {
         
         newPost.innerHTML = `
             <div class="avatar">
-                <div class="avatar-placeholder">U</div>
+                 <img src="assets/profile3.jpg" alt="Profile photo" class="avatar-img">
             </div>
             <div class="post-content">
                 <div class="post-header">
                     <div class="post-author">
-                        <span class="author-name">User Name</span>
-                        <span class="author-handle">@username</span>
+                        <a href="https://x.com/narendramodi" class="author-name author-link">Narendra Modi</a>
+                        <span class="author-handle">@narendramodi</span>
                         <span class="post-time">· now</span>
                     </div>
                     <button class="more-btn">
